@@ -1,19 +1,20 @@
 {
-  "name": "Apps Script App",
-  "short_name": "App",
-  "start_url": "index.html",
+  "name": "Donations Summary",
+  "short_name": "Donations",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1a73e8",
   "icons": [
     {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/192px-Google_Apps_Script.svg.png",
+      "src": "https://placehold.co/192x192.png?text=Donations",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/512px-Google_Apps_Script.svg.png",
+      "src": "https://placehold.co/512x512.png?text=Donations",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
