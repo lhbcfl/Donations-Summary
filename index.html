@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>Donations Summary</title>
 
-  <!-- Browser tab icon (Favicon) -->
+  <!-- Browser tab icon & Apple icon -->
   <link rel="icon" type="image/png" href="icon.png">
-  <!-- Apple home screen icon -->
   <link rel="apple-touch-icon" href="icon.png">
 
-  <!-- PWA Manifest & Browser Theme Color -->
+  <!-- PWA Manifest & Browser Frame Color -->
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#585c66">
 
@@ -23,12 +22,17 @@
     html, body { 
       width: 100%; 
       height: 100%; 
+      height: 100dvh; /* Dynamic viewport height adjusts to mobile browser toolbars */
       overflow: hidden; 
       background: #f7f7f4; 
     }
     iframe { 
-      width: 100vw; 
-      height: 100vh; 
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%; 
+      height: 100dvh;
       border: none; 
       display: block; 
     }
